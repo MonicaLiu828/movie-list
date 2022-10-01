@@ -1,0 +1,16 @@
+// var axios = require('axios');
+var parse = {
+  getAll: function () {
+    axios({
+      method: 'GET',
+      url: 'http://localhost:3000/movies'
+    }).then(result => {
+      return result;
+    }).catch(() => {
+      console.log('failed');
+    });
+    return [];
+  }
+};
+export default parse;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJwYXJzZSIsImdldEFsbCIsImF4aW9zIiwibWV0aG9kIiwidXJsIiwidGhlbiIsInJlc3VsdCIsImNhdGNoIiwiY29uc29sZSIsImxvZyJdLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9QYXJzZS5qcyJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyB2YXIgYXhpb3MgPSByZXF1aXJlKCdheGlvcycpO1xuXG52YXIgcGFyc2UgPSB7XG4gIGdldEFsbDpcbiAgZnVuY3Rpb24oKSB7XG4gICAgYXhpb3Moe1xuICAgICAgbWV0aG9kOiAnR0VUJyxcbiAgICAgIHVybDogJ2h0dHA6Ly9sb2NhbGhvc3Q6MzAwMC9tb3ZpZXMnLFxuICAgIH0pLnRoZW4oKHJlc3VsdCkgPT4ge1xuICAgICAgcmV0dXJuIHJlc3VsdDtcbiAgICB9KS5jYXRjaCgoKT0+IHtcbiAgICAgIGNvbnNvbGUubG9nKCdmYWlsZWQnKVxuICAgIH0pXG4gICAgcmV0dXJuIFtdO1xuICB9XG5cblxufVxuZXhwb3J0IGRlZmF1bHQgcGFyc2U7Il0sIm1hcHBpbmdzIjoiQUFBQTtBQUVBLElBQUlBLEtBQUssR0FBRztFQUNWQyxNQUFNLEVBQ04sWUFBVztJQUNUQyxLQUFLLENBQUM7TUFDSkMsTUFBTSxFQUFFLEtBREo7TUFFSkMsR0FBRyxFQUFFO0lBRkQsQ0FBRCxDQUFMLENBR0dDLElBSEgsQ0FHU0MsTUFBRCxJQUFZO01BQ2xCLE9BQU9BLE1BQVA7SUFDRCxDQUxELEVBS0dDLEtBTEgsQ0FLUyxNQUFLO01BQ1pDLE9BQU8sQ0FBQ0MsR0FBUixDQUFZLFFBQVo7SUFDRCxDQVBEO0lBUUEsT0FBTyxFQUFQO0VBQ0Q7QUFaUyxDQUFaO0FBZ0JBLGVBQWVULEtBQWYifQ==

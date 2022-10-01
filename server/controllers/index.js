@@ -1,0 +1,1 @@
+exports.movieController = require('./movie.js')

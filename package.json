@@ -10,7 +10,8 @@
     "react-dev": "webpack --config ./webpack.config.js  -w"
   },
   "devDependencies": {
-    "@babel/core": "^7.13.10",
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.3",
     "@babel/plugin-transform-runtime": "^7.13.10",
     "@babel/preset-env": "^7.13.10",
     "@babel/preset-react": "^7.12.13",
@@ -20,8 +21,11 @@
     "webpack-cli": "^4.5.0"
   },
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.21.4",
     "express": "^4.17.1",
+    "jquery": "^3.6.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "underscore": "^1.12.1"
